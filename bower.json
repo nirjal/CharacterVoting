@@ -1,0 +1,25 @@
+{
+  "name": "charactervoting",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nirjal Khadka"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "magnific-popup": "~1.0.0",
+    "toastr": "~2.1.2"
+  }
+}
