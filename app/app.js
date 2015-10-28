@@ -7,9 +7,7 @@ class App extends React.Component {
 				{this.props.children}
 			</div>
 		);
-
 	}
-
 }
 
 exports default App;

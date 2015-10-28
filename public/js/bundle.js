@@ -34,9 +34,7 @@ var App = (function (_React$Component) {
       return _react2['default'].createElement(
         'div',
         null,
-        _react2['default'].createElement(Navbar, { history: this.props.history }),
-        this.props.children,
-        _react2['default'].createElement(Footer, null)
+        this.props.children
       );
     }
   }]);
@@ -131,7 +129,7 @@ _reactDom2['default'].render(_react2['default'].createElement(
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
-  value: true
+	value: true
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -151,9 +149,9 @@ var _componentsHome = require('./components/Home');
 var _componentsHome2 = _interopRequireDefault(_componentsHome);
 
 exports['default'] = _react2['default'].createElement(
-  _reactRouter.Route,
-  { component: _componentsApp2['default'] },
-  _react2['default'].createElement(_reactRouter.Route, { path: '/', component: _componentsHome2['default'] })
+	_reactRouter.Route,
+	{ path: '/', component: _componentsApp2['default'] },
+	_react2['default'].createElement(_reactRouter.Route, { path: '/', component: _componentsHome2['default'] })
 );
 module.exports = exports['default'];
 
